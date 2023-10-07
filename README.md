@@ -14,6 +14,9 @@ MSIner - Security tool to check MSI installer file on LPE recovery mode CVE-2023
 5. Predicting verdict: DETECT or CLEAN
 
 ## Demo 
+<picture>
+  <img alt="Demo MSIner" src="https://github.com/vulerols/msiner/blob/main/msiner_demo.gif">
+</picture>
 
 ## Usage
 1. Download and install .NET 6.0 runtime in release https://github.com/vulerols/msiner/releases/tag/production

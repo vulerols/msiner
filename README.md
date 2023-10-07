@@ -1,8 +1,4 @@
 # MSIner
-
-## Intro
-This research was conducted and timed to correspond with TheSASCon2023 https://thesascon.com
-
 ## Description
 MSIner - Security tool to check MSI installer file on LPE recovery mode CVE-2023-26078 and CVE-2023-26078
 

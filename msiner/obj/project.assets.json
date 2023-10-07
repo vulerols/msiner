@@ -1,0 +1,331 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "WiX.Toolset/3.9.1208": {
+        "type": "package"
+      },
+      "WixToolset.Dtf.WindowsInstaller/4.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WiX.Toolset/3.9.1208": {
+      "sha512": "em/53JLSYh59KY1k6uLo4CR/d/5ffe9LE0e7BWvMR+cZYkLxdzpJjabH3N9kpYtZ4UOfyu3mo4nPJUUim5tApw==",
+      "type": "package",
+      "path": "wix.toolset/3.9.1208",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/WiX.Toolset.DummyFile.txt",
+        "readme.txt",
+        "tools/Install.ps1",
+        "tools/Remove.psm1",
+        "tools/Uninstall.ps1",
+        "tools/wix/LuxTasks.dll",
+        "tools/wix/Microsoft.Deployment.Compression.Cab.dll",
+        "tools/wix/Microsoft.Deployment.Compression.dll",
+        "tools/wix/Microsoft.Deployment.Resources.dll",
+        "tools/wix/Microsoft.Deployment.WindowsInstaller.Package.dll",
+        "tools/wix/Microsoft.Deployment.WindowsInstaller.dll",
+        "tools/wix/ThmViewer.exe",
+        "tools/wix/WixBalExtension.dll",
+        "tools/wix/WixComPlusExtension.dll",
+        "tools/wix/WixCop.exe",
+        "tools/wix/WixDependencyExtension.dll",
+        "tools/wix/WixDifxAppExtension.dll",
+        "tools/wix/WixDirectXExtension.dll",
+        "tools/wix/WixFirewallExtension.dll",
+        "tools/wix/WixGamingExtension.dll",
+        "tools/wix/WixIIsExtension.dll",
+        "tools/wix/WixLuxExtension.dll",
+        "tools/wix/WixMsmqExtension.dll",
+        "tools/wix/WixNetFxExtension.dll",
+        "tools/wix/WixPSExtension.dll",
+        "tools/wix/WixSqlExtension.dll",
+        "tools/wix/WixTagExtension.dll",
+        "tools/wix/WixTasks.dll",
+        "tools/wix/WixUIExtension.dll",
+        "tools/wix/WixUtilExtension.dll",
+        "tools/wix/WixVSExtension.dll",
+        "tools/wix/candle.exe",
+        "tools/wix/candle.exe.config",
+        "tools/wix/darice.cub",
+        "tools/wix/dark.exe",
+        "tools/wix/dark.exe.config",
+        "tools/wix/difxapp_x64.wixlib",
+        "tools/wix/difxapp_x86.wixlib",
+        "tools/wix/doc/DTF.chm",
+        "tools/wix/doc/DTFAPI.chm",
+        "tools/wix/doc/Dependency.xsd",
+        "tools/wix/doc/WiX.chm",
+        "tools/wix/doc/bal.xsd",
+        "tools/wix/doc/complus.xsd",
+        "tools/wix/doc/difxapp.xsd",
+        "tools/wix/doc/firewall.xsd",
+        "tools/wix/doc/gaming.xsd",
+        "tools/wix/doc/iis.xsd",
+        "tools/wix/doc/lux.xsd",
+        "tools/wix/doc/msmq.xsd",
+        "tools/wix/doc/netfx.xsd",
+        "tools/wix/doc/ps.xsd",
+        "tools/wix/doc/sql.xsd",
+        "tools/wix/doc/tag.xsd",
+        "tools/wix/doc/thmutil.xsd",
+        "tools/wix/doc/util.xsd",
+        "tools/wix/doc/vs.xsd",
+        "tools/wix/doc/wix.xsd",
+        "tools/wix/doc/wixloc.xsd",
+        "tools/wix/heat.exe",
+        "tools/wix/heat.exe.config",
+        "tools/wix/insignia.exe",
+        "tools/wix/insignia.exe.config",
+        "tools/wix/light.exe",
+        "tools/wix/light.exe.config",
+        "tools/wix/lit.exe",
+        "tools/wix/lit.exe.config",
+        "tools/wix/lux.exe",
+        "tools/wix/lux.exe.config",
+        "tools/wix/lux.targets",
+        "tools/wix/melt.exe",
+        "tools/wix/melt.exe.config",
+        "tools/wix/mergemod.cub",
+        "tools/wix/mergemod.dll",
+        "tools/wix/mspatchc.dll",
+        "tools/wix/nit.exe",
+        "tools/wix/nit.exe.config",
+        "tools/wix/pyro.exe",
+        "tools/wix/pyro.exe.config",
+        "tools/wix/retina.exe",
+        "tools/wix/retina.exe.config",
+        "tools/wix/sdk/BootstrapperCore.config",
+        "tools/wix/sdk/BootstrapperCore.dll",
+        "tools/wix/sdk/BootstrapperCore.xml",
+        "tools/wix/sdk/DocCompiler.exe",
+        "tools/wix/sdk/MakeSfxCA.exe",
+        "tools/wix/sdk/MakeSfxCA.exe.config",
+        "tools/wix/sdk/Microsoft.Deployment.Compression.Cab.dll",
+        "tools/wix/sdk/Microsoft.Deployment.Compression.Cab.xml",
+        "tools/wix/sdk/Microsoft.Deployment.Compression.Zip.dll",
+        "tools/wix/sdk/Microsoft.Deployment.Compression.Zip.xml",
+        "tools/wix/sdk/Microsoft.Deployment.Compression.dll",
+        "tools/wix/sdk/Microsoft.Deployment.Compression.xml",
+        "tools/wix/sdk/Microsoft.Deployment.Resources.dll",
+        "tools/wix/sdk/Microsoft.Deployment.Resources.xml",
+        "tools/wix/sdk/Microsoft.Deployment.WindowsInstaller.Linq.dll",
+        "tools/wix/sdk/Microsoft.Deployment.WindowsInstaller.Linq.xml",
+        "tools/wix/sdk/Microsoft.Deployment.WindowsInstaller.Package.dll",
+        "tools/wix/sdk/Microsoft.Deployment.WindowsInstaller.Package.xml",
+        "tools/wix/sdk/Microsoft.Deployment.WindowsInstaller.dll",
+        "tools/wix/sdk/Microsoft.Deployment.WindowsInstaller.xml",
+        "tools/wix/sdk/MsgGen.exe",
+        "tools/wix/sdk/XsdGen.exe",
+        "tools/wix/sdk/XsdStitch.exe",
+        "tools/wix/sdk/inc/BalBaseBootstrapperApplication.h",
+        "tools/wix/sdk/inc/IBootstrapperApplication.h",
+        "tools/wix/sdk/inc/IBootstrapperBAFunction.h",
+        "tools/wix/sdk/inc/IBootstrapperEngine.h",
+        "tools/wix/sdk/inc/aclutil.h",
+        "tools/wix/sdk/inc/apuputil.h",
+        "tools/wix/sdk/inc/atomutil.h",
+        "tools/wix/sdk/inc/balcondition.h",
+        "tools/wix/sdk/inc/balinfo.h",
+        "tools/wix/sdk/inc/balretry.h",
+        "tools/wix/sdk/inc/balutil.h",
+        "tools/wix/sdk/inc/buffutil.h",
+        "tools/wix/sdk/inc/butil.h",
+        "tools/wix/sdk/inc/cabcutil.h",
+        "tools/wix/sdk/inc/cabutil.h",
+        "tools/wix/sdk/inc/certutil.h",
+        "tools/wix/sdk/inc/conutil.h",
+        "tools/wix/sdk/inc/cryputil.h",
+        "tools/wix/sdk/inc/custommsierrors.h",
+        "tools/wix/sdk/inc/deputil.h",
+        "tools/wix/sdk/inc/dictutil.h",
+        "tools/wix/sdk/inc/dirutil.h",
+        "tools/wix/sdk/inc/dlutil.h",
+        "tools/wix/sdk/inc/dutil.h",
+        "tools/wix/sdk/inc/eseutil.h",
+        "tools/wix/sdk/inc/fileutil.h",
+        "tools/wix/sdk/inc/gdiputil.h",
+        "tools/wix/sdk/inc/iis7util.h",
+        "tools/wix/sdk/inc/inetutil.h",
+        "tools/wix/sdk/inc/iniutil.h",
+        "tools/wix/sdk/inc/jsonutil.h",
+        "tools/wix/sdk/inc/locutil.h",
+        "tools/wix/sdk/inc/logutil.h",
+        "tools/wix/sdk/inc/memutil.h",
+        "tools/wix/sdk/inc/metautil.h",
+        "tools/wix/sdk/inc/osutil.h",
+        "tools/wix/sdk/inc/pathutil.h",
+        "tools/wix/sdk/inc/perfutil.h",
+        "tools/wix/sdk/inc/polcutil.h",
+        "tools/wix/sdk/inc/procutil.h",
+        "tools/wix/sdk/inc/regutil.h",
+        "tools/wix/sdk/inc/resrutil.h",
+        "tools/wix/sdk/inc/reswutil.h",
+        "tools/wix/sdk/inc/rexutil.h",
+        "tools/wix/sdk/inc/rmutil.h",
+        "tools/wix/sdk/inc/rssutil.h",
+        "tools/wix/sdk/inc/sceutil.h",
+        "tools/wix/sdk/inc/shelutil.h",
+        "tools/wix/sdk/inc/sqlutil.h",
+        "tools/wix/sdk/inc/srputil.h",
+        "tools/wix/sdk/inc/strutil.h",
+        "tools/wix/sdk/inc/svcutil.h",
+        "tools/wix/sdk/inc/thmutil.h",
+        "tools/wix/sdk/inc/timeutil.h",
+        "tools/wix/sdk/inc/uriutil.h",
+        "tools/wix/sdk/inc/userutil.h",
+        "tools/wix/sdk/inc/wcalog.h",
+        "tools/wix/sdk/inc/wcautil.h",
+        "tools/wix/sdk/inc/wcawow64.h",
+        "tools/wix/sdk/inc/wcawrapquery.h",
+        "tools/wix/sdk/inc/wiutil.h",
+        "tools/wix/sdk/inc/wuautil.h",
+        "tools/wix/sdk/inc/xmlutil.h",
+        "tools/wix/sdk/vs2010/lib/x64/deputil.lib",
+        "tools/wix/sdk/vs2010/lib/x64/dutil.lib",
+        "tools/wix/sdk/vs2010/lib/x64/wcautil.lib",
+        "tools/wix/sdk/vs2010/lib/x86/balutil.lib",
+        "tools/wix/sdk/vs2010/lib/x86/deputil.lib",
+        "tools/wix/sdk/vs2010/lib/x86/dutil.lib",
+        "tools/wix/sdk/vs2010/lib/x86/wcautil.lib",
+        "tools/wix/sdk/vs2012/lib/x64/deputil.lib",
+        "tools/wix/sdk/vs2012/lib/x64/dutil.lib",
+        "tools/wix/sdk/vs2012/lib/x64/wcautil.lib",
+        "tools/wix/sdk/vs2012/lib/x86/balutil.lib",
+        "tools/wix/sdk/vs2012/lib/x86/deputil.lib",
+        "tools/wix/sdk/vs2012/lib/x86/dutil.lib",
+        "tools/wix/sdk/vs2012/lib/x86/wcautil.lib",
+        "tools/wix/sdk/vs2013/lib/x64/deputil.lib",
+        "tools/wix/sdk/vs2013/lib/x64/dutil.lib",
+        "tools/wix/sdk/vs2013/lib/x64/wcautil.lib",
+        "tools/wix/sdk/vs2013/lib/x86/balutil.lib",
+        "tools/wix/sdk/vs2013/lib/x86/deputil.lib",
+        "tools/wix/sdk/vs2013/lib/x86/dutil.lib",
+        "tools/wix/sdk/vs2013/lib/x86/wcautil.lib",
+        "tools/wix/sdk/wix.ca.targets",
+        "tools/wix/sdk/x64/sfxca.dll",
+        "tools/wix/sdk/x86/sfxca.dll",
+        "tools/wix/shine.exe",
+        "tools/wix/shine.exe.config",
+        "tools/wix/smoke.exe",
+        "tools/wix/smoke.exe.config",
+        "tools/wix/torch.exe",
+        "tools/wix/torch.exe.config",
+        "tools/wix/wconsole.dll",
+        "tools/wix/winterop.dll",
+        "tools/wix/wix.dll",
+        "tools/wix/wix.targets",
+        "tools/wix/wix200x.targets",
+        "tools/wix/wix2010.targets",
+        "tools/wix/x86/burn.exe",
+        "wix.toolset.3.9.1208.nupkg.sha512",
+        "wix.toolset.nuspec"
+      ]
+    },
+    "WixToolset.Dtf.WindowsInstaller/4.0.2": {
+      "sha512": "3XpLXPkmW+pPg4U20vkMw4QLSeyjT5oMwSiEvLZBOgNIbhGEztnKSwfoQVE2r1XXYRHc7pMIruIHp5VuPMvGvw==",
+      "type": "package",
+      "path": "wixtoolset.dtf.windowsinstaller/4.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/WixToolset.Dtf.WindowsInstaller.dll",
+        "lib/net20/WixToolset.Dtf.WindowsInstaller.xml",
+        "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.dll",
+        "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.xml",
+        "wix.png",
+        "wixtoolset.dtf.windowsinstaller.4.0.2.nupkg.sha512",
+        "wixtoolset.dtf.windowsinstaller.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "WiX.Toolset >= 3.9.1208",
+      "WixToolset.Dtf.WindowsInstaller >= 4.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\admin\\source\\repos\\msiner\\msiner\\msiner.csproj",
+      "projectName": "msiner",
+      "projectPath": "C:\\Users\\admin\\source\\repos\\msiner\\msiner\\msiner.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\source\\repos\\msiner\\msiner\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "WiX.Toolset": {
+            "target": "Package",
+            "version": "[3.9.1208, )"
+          },
+          "WixToolset.Dtf.WindowsInstaller": {
+            "target": "Package",
+            "version": "[4.0.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

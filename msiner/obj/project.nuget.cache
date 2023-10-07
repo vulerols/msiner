@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V09kF7D5QuxN9qhkJ5cU4/yZinN/XPGQRhv9ODp57tTjvRiu7V+7i3bvSv+XJ06b3Hb6ssp11Q6JDQqG25B9sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\admin\\source\\repos\\msiner\\msiner\\msiner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\wix.toolset\\3.9.1208\\wix.toolset.3.9.1208.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\wixtoolset.dtf.windowsinstaller\\4.0.2\\wixtoolset.dtf.windowsinstaller.4.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

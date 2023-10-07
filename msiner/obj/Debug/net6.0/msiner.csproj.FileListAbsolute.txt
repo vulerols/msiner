@@ -1,0 +1,17 @@
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.AssemblyInfo.cs
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\msiner\msiner\bin\Debug\net6.0\msiner.exe
+C:\Users\admin\source\repos\msiner\msiner\bin\Debug\net6.0\msiner.deps.json
+C:\Users\admin\source\repos\msiner\msiner\bin\Debug\net6.0\msiner.runtimeconfig.json
+C:\Users\admin\source\repos\msiner\msiner\bin\Debug\net6.0\msiner.dll
+C:\Users\admin\source\repos\msiner\msiner\bin\Debug\net6.0\msiner.pdb
+C:\Users\admin\source\repos\msiner\msiner\bin\Debug\net6.0\WixToolset.Dtf.WindowsInstaller.dll
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.csproj.CopyComplete
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.dll
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\refint\msiner.dll
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.pdb
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\msiner.genruntimeconfig.cache
+C:\Users\admin\source\repos\msiner\msiner\obj\Debug\net6.0\ref\msiner.dll

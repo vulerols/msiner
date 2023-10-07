@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>msiner</id>
+    <version>1.0.0</version>
+    <authors>msiner</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="WiX.Toolset" version="3.9.1208" exclude="Build,Analyzers" />
+        <dependency id="WixToolset.Dtf.WindowsInstaller" version="4.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\admin\source\repos\msiner\msiner\bin\Release\net6.0\msiner.runtimeconfig.json" target="lib\net6.0\msiner.runtimeconfig.json" />
+    <file src="C:\Users\admin\source\repos\msiner\msiner\bin\Release\net6.0\msiner.dll" target="lib\net6.0\msiner.dll" />
+  </files>
+</package>

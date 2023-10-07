@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "msiner": {
+      "commandName": "Project",
+      "commandLineArgs": "-f C:\\Users\\admin\\Desktop\\msi_research"
+    }
+  }
+}

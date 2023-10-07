@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "msiner/1.0.0": {
+        "dependencies": {
+          "WiX.Toolset": "3.9.1208",
+          "WixToolset.Dtf.WindowsInstaller": "4.0.2"
+        },
+        "runtime": {
+          "msiner.dll": {}
+        }
+      },
+      "WiX.Toolset/3.9.1208": {},
+      "WixToolset.Dtf.WindowsInstaller/4.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/WixToolset.Dtf.WindowsInstaller.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "msiner/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WiX.Toolset/3.9.1208": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-em/53JLSYh59KY1k6uLo4CR/d/5ffe9LE0e7BWvMR+cZYkLxdzpJjabH3N9kpYtZ4UOfyu3mo4nPJUUim5tApw==",
+      "path": "wix.toolset/3.9.1208",
+      "hashPath": "wix.toolset.3.9.1208.nupkg.sha512"
+    },
+    "WixToolset.Dtf.WindowsInstaller/4.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3XpLXPkmW+pPg4U20vkMw4QLSeyjT5oMwSiEvLZBOgNIbhGEztnKSwfoQVE2r1XXYRHc7pMIruIHp5VuPMvGvw==",
+      "path": "wixtoolset.dtf.windowsinstaller/4.0.2",
+      "hashPath": "wixtoolset.dtf.windowsinstaller.4.0.2.nupkg.sha512"
+    }
+  }
+}

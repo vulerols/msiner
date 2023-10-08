@@ -15,7 +15,7 @@ class Msiner
         Console.WriteLine("██║╚██╔╝██║╚════██║██║██║╚██╗██║██╔══╝  ██╔══██╗");
         Console.WriteLine("██║ ╚═╝ ██║███████║██║██║ ╚████║███████╗██║  ██║");
         Console.WriteLine("╚═╝     ╚═╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝");
-        Console.WriteLine("Description: Security tool to check MSI installer file on LPE recovery mode CVE-2023-26078 and CVE-2023-26078");
+        Console.WriteLine("Description: Security tool to check MSI installer file on LPE recovery mode CVE-2023-26077 and CVE-2023-26078");
         Console.WriteLine("Author: Nikita Kurganov aka vulerols");
         Console.WriteLine("");
     }

@@ -9,7 +9,7 @@ MSIner - Security tool to check MSI installer file on LPE recovery mode CVE-2023
 ## Fuctions
 1. Scan reinstall commants in MSI Installer COM tables https://learn.microsoft.com/en-us/windows/win32/msi/database-tables
 2. View reintall command
-3. View and scan exploitable suspicion commands CVE-2023-26078 and CVE-2023-26078
+3. View and scan exploitable suspicion commands CVE-2023-26077 and CVE-2023-26078
 4. View install folders
 5. Predicting verdict: DETECT or CLEAN
 
